@@ -1,20 +1,20 @@
-<!DOCTYPE html> 
-<html lang="tr">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZCLMP71SL"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag(){dataLayer.push(arguments);} 
   gtag('js', new Date());
 
   gtag('config', 'G-9ZCLMP71SL');
 </script>
-    <title>TURAY ARGE - Milli Havacılık Teknolojileri Takımı</title>
+    <title>TURAY ARGE - National Aviation Technologies Team</title>
     <meta charset="UTF-8">
-    <meta name="description" content="TURAY ARGE - Milli Havacılık Teknolojileri Takımı">
-    <meta name="keywords" content="TURAY ARGE, Havacılık, İHA, Uçak, Milli Havacılık Teknolojileri, AR-GE">
+    <meta name="description" content="TURAY ARGE - National Aviation Technologies Team">
+    <meta name="keywords" content="TURAY ARGE, Aviation, UAV, Aircraft, National Aviation Technologies, R&D">
     <meta name="author" content="TURAY ARGE">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -84,25 +84,14 @@
             color: #fff;
         }
 
-        .logo-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
+        /* Logo styles were removed when the sponsors section was removed */
 
-        .logo-container img {
-            max-height: 150px; /* Logoların maksimum yüksekliğini sabit tut */
-            height: auto; /* Oranlarını koru */
-            max-width: 150px; /* Genişliklerini de sınırla */
-            object-fit: contain; /* İçeriği kesmeden sığdır */
-        }
     </style>
 </head>
 
 <body>
 
-    <!-- Açılış Ekranı -->
+    <!-- Splash Screen -->
     <div id="splash-screen">
         <div id="splash-logo">TURAY ARGE</div>
     </div>
@@ -120,39 +109,38 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#hakkimizda">Hakkımızda</a></li>
-                    <li><a href="#hizmetler">Çalışmalarımız</a></li>
-                    <li><a href="#destekciler">Destekçilerimiz</a></li>
-                    <li><a href="#iletisim">İletişim</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Our Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hakkımızda -->
-<div id="hakkimizda" class="container-fluid bg-1 text-center fade-in">
+    <!-- About -->
+<div id="about" class="container-fluid bg-1 text-center fade-in">
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
-        <h3 class="margin" style="font-size: 2rem;">TURAY ARGE'ye Hoşgeldiniz</h3>
+        <h3 class="margin" style="font-size: 2rem;">Welcome to TURAY ARGE</h3>
         <p style="font-size: 1.2rem; max-width: 800px; line-height: 1.5;">
-            Milli havacılık teknolojileri geliştiren bir takım olarak, insansız hava araçları (İHA) ve havacılık çözümlerinde AR-GE çalışmalarımızla önemli başarılara imza atıyoruz.
+            As a team developing national aviation technologies, we achieve significant successes in R&amp;D for unmanned aerial vehicles (UAVs) and aviation solutions.
         </p>
         <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-            <img src="001.jpg" alt="İHA Görsel 1" style="max-width: 300px; border-radius: 8px;">
-            <img src="0021.jpg" alt="İHA Görsel 2" style="max-width: 300px; border-radius: 8px;">
-            <img src="005.jpg" alt="İHA Görsel 3" style="max-width: 300px; border-radius: 8px;">
-            <img src="006.jpg" alt="İHA Görsel 4" style="max-width: 300px; border-radius: 8px;">
-            <img src="007.jpg" alt="İHA Görsel 5" style="max-width: 300px; border-radius: 8px;">
+            <img src="001.jpg" alt="UAV Image 1" style="max-width: 300px; border-radius: 8px;">
+            <img src="0021.jpg" alt="UAV Image 2" style="max-width: 300px; border-radius: 8px;">
+            <img src="005.jpg" alt="UAV Image 3" style="max-width: 300px; border-radius: 8px;">
+            <img src="006.jpg" alt="UAV Image 4" style="max-width: 300px; border-radius: 8px;">
+            <img src="007.jpg" alt="UAV Image 5" style="max-width: 300px; border-radius: 8px;">
         </div>
     </div>
 </div>
- <!-- Çalışmalarımız Videosu -->
-<div id="calismalarimiz-video" class="container-fluid bg-3 text-center fade-in">
-    <h3 class="margin">Turay Arge ve Çalışmalarımız</h3>
-    <p>Projelerimizi ve çalışmalarımızı bu videoda keşfedin:</p>
+ <!-- Our Work Video -->
+<div id="projects-video" class="container-fluid bg-3 text-center fade-in">
+    <h3 class="margin">Turay Arge and Our Projects</h3>
+    <p>Discover our projects and work in this video:</p>
     <div style="display: flex; justify-content: center;">
         <iframe 
             src="https://www.youtube.com/embed/Kcn-xGaOk10?rel=0" 
-            title="Turay Arge ve Çalışmalarımız" 
+            title="Turay Arge and Our Projects" 
             style="width: 90%; max-width: 700px; height: auto; aspect-ratio: 16 / 9; border-radius: 8px;" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
@@ -163,87 +151,72 @@
 
 
 
-    <!-- Çalışmalarımız -->
-<div id="hizmetler" class="container-fluid bg-2 text-center fade-in">
-    <h3 class="margin">Çalışmalarımız</h3>
-    <p>İleri teknolojiyle geliştirilmiş İHA sistemleri, uçak tasarımları ve yenilikçi AR-GE projeleri sunuyoruz.</p>
+    <!-- Our Work -->
+<div id="projects" class="container-fluid bg-2 text-center fade-in">
+    <h3 class="margin">Our Work</h3>
+    <p>We offer advanced UAV systems, aircraft designs, and innovative R&amp;D projects.</p>
 
-    <!-- Resim Galerisi Başlangıcı -->
+    <!-- Image Gallery -->
     <div class="gallery" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-        <a href="Yeni klasör/0a.jpg" target="_blank">
-            <img src="Yeni klasör/0a.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0a">
+        <a href="New Folder/0a.jpg" target="_blank">
+            <img src="New Folder/0a.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0a">
         </a>
-        <a href="Yeni klasör/0ab.jpeg" target="_blank">
-            <img src="Yeni klasör/0ab.jpeg" style="width: 150px; height: auto; border-radius: 8px;" alt="0ab">
+        <a href="New Folder/0ab.jpeg" target="_blank">
+            <img src="New Folder/0ab.jpeg" style="width: 150px; height: auto; border-radius: 8px;" alt="0ab">
         </a>
-        <a href="Yeni klasör/0b.jpg" target="_blank">
-            <img src="Yeni klasör/0b.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0b">
+        <a href="New Folder/0b.jpg" target="_blank">
+            <img src="New Folder/0b.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0b">
         </a>
-        <a href="Yeni klasör/0c.jpg" target="_blank">
-            <img src="Yeni klasör/0c.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0c">
+        <a href="New Folder/0c.jpg" target="_blank">
+            <img src="New Folder/0c.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0c">
         </a>
-        <a href="Yeni klasör/0d.jpg" target="_blank">
-            <img src="Yeni klasör/0d.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0d">
+        <a href="New Folder/0d.jpg" target="_blank">
+            <img src="New Folder/0d.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0d">
         </a>
-        <a href="Yeni klasör/0e.jpg" target="_blank">
-            <img src="Yeni klasör/0e.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0e">
+        <a href="New Folder/0e.jpg" target="_blank">
+            <img src="New Folder/0e.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0e">
         </a>
-        <a href="Yeni klasör/0f.jpg" target="_blank">
-            <img src="Yeni klasör/0f.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0f">
+        <a href="New Folder/0f.jpg" target="_blank">
+            <img src="New Folder/0f.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0f">
         </a>
-        <a href="Yeni klasör/0g.jpg" target="_blank">
-            <img src="Yeni klasör/0g.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0g">
+        <a href="New Folder/0g.jpg" target="_blank">
+            <img src="New Folder/0g.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0g">
         </a>
-        <a href="Yeni klasör/0h.jpg" target="_blank">
-            <img src="Yeni klasör/0h.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0h">
+        <a href="New Folder/0h.jpg" target="_blank">
+            <img src="New Folder/0h.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0h">
         </a>
-        <a href="Yeni klasör/0i.jpg" target="_blank">
-            <img src="Yeni klasör/0i.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0i">
+        <a href="New Folder/0i.jpg" target="_blank">
+            <img src="New Folder/0i.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0i">
         </a>
-        <a href="Yeni klasör/0j.jpg" target="_blank">
-            <img src="Yeni klasör/0j.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0j">
+        <a href="New Folder/0j.jpg" target="_blank">
+            <img src="New Folder/0j.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0j">
         </a>
-        <a href="Yeni klasör/0k.jpg" target="_blank">
-            <img src="Yeni klasör/0k.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0k">
+        <a href="New Folder/0k.jpg" target="_blank">
+            <img src="New Folder/0k.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0k">
         </a>
-        <a href="Yeni klasör/0m.jpg" target="_blank">
-            <img src="Yeni klasör/0m.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0m">
+        <a href="New Folder/0m.jpg" target="_blank">
+            <img src="New Folder/0m.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0m">
         </a>
-        <a href="Yeni klasör/0n.jpg" target="_blank">
-            <img src="Yeni klasör/0n.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0n">
+        <a href="New Folder/0n.jpg" target="_blank">
+            <img src="New Folder/0n.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0n">
         </a>
-        <a href="Yeni klasör/0r.jpg" target="_blank">
-            <img src="Yeni klasör/0r.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0r">
+        <a href="New Folder/0r.jpg" target="_blank">
+            <img src="New Folder/0r.jpg" style="width: 150px; height: auto; border-radius: 8px;" alt="0r">
         </a>
     </div>
-    <!-- Resim Galerisi Sonu -->
+    <!-- Image Gallery End -->
 
-    <a href="#iletisim" class="btn btn-default btn-lg margin-top">
-        <span class="glyphicon glyphicon-envelope"></span> Bizimle İletişime Geçin
+    <a href="#contact" class="btn btn-default btn-lg margin-top">
+        <span class="glyphicon glyphicon-envelope"></span> Contact Us
     </a>
 </div>
 
 
-    <!-- Destekçilerimiz -->
-    <div id="destekciler" class="container-fluid bg-3 text-center fade-in">
-        <h3 class="margin">Destekçilerimiz</h3>
-        <p>TURAY ARGE'nin başarılarına destek veren değerli kurumlar:</p>
-        <div class="logo-container">
-            <img src="kale.png" alt="KALE">
-            <img src="bisavunma.png" alt="BİSAVUNMA">
-            <img src="airaks.png" alt="AİRAKS">
-            <img src="çitpa.jpg" alt="ÇİTPA AŞ.">
-            <img src="petek.png" alt="PETEK YEMEK">
-            <img src="pendikbelediyesi.png" alt="PENDİK BELEDİYESİ">
-            <img src="hayatkalıp.png" alt="HAYAT KALIP">
-        </div>
-    </div>
-
-    <!-- İletişim -->
-    <div id="iletisim" class="container-fluid bg-4 text-center fade-in">
-        <h3 class="margin">İletişim</h3>
-        <p>AR-GE çalışmalarımız hakkında daha fazla bilgi almak ister misiniz?</p>
-        <p><span class="glyphicon glyphicon-map-marker"></span> İstanbul, TR</p>
+    <!-- Contact -->
+    <div id="contact" class="container-fluid bg-4 text-center fade-in">
+        <h3 class="margin">Contact</h3>
+        <p>Would you like more information about our R&amp;D work?</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Istanbul, TR</p>
         <p><span class="glyphicon glyphicon-phone"></span> +90 533 561 01 82</p>
         <p><span class="glyphicon glyphicon-envelope"></span> info@turayarge.com</p>
         <div class="embed-responsive embed-responsive-16by9 margin">
@@ -265,7 +238,7 @@
 
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script>
-        // Sayfa yüklendiğinde açılış ekranını gizleme
+        // Hide splash screen when page loads
         window.addEventListener("load", function() {
             setTimeout(function() {
                 document.getElementById("splash-screen").style.opacity = "0";
@@ -275,7 +248,7 @@
                         element.style.animationDelay = '0.5s';
                     });
                 }, 1000);
-            }, 4000); // 4 saniyelik bekleme
+            }, 4000); // 4 second delay
         });
     </script>
 </body>
